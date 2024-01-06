@@ -1,0 +1,4 @@
+sbatch --exclusive ./batch-job.sh python py-scripts/testscript_trainModel.py
+
+sbatch --exclusive ./batch-job.sh Rscript R-scripts/01-margins.R
+
